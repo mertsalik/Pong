@@ -11,4 +11,12 @@
 #endif
 // FOR THE OPENGL3x ****
 
-// Other imports
+// Assimp imports
+#include <fstream>
+#include <assimp/Importer.hpp>
+#include <assimp/types.h>
+#include <assimp/scene.h>
+#include <assimp/mesh.h>
+#include <assimp/postprocess.h>
+#include <assimp/vector3.h>
+
