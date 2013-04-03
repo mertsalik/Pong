@@ -49,16 +49,16 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Object Include="bunny.obj">
-      <Filter>Resource Files</Filter>
-    </Object>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="frag_shader.frag">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="vert_shader.vert">
       <Filter>Resource Files</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="bunny.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
   </ItemGroup>
 </Project>

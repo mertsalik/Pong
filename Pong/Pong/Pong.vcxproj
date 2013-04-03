@@ -94,11 +94,13 @@
     <ClInclude Include="Model.h" />
   </ItemGroup>
   <ItemGroup>
-    <Object Include="bunny.obj" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="frag_shader.frag" />
     <None Include="vert_shader.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="bunny.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </Object>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
