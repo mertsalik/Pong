@@ -21,3 +21,7 @@ A GLSL workout on classical Pong game.
 
 	- Library Directories += Assimp lib path;
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mertsalik/Pong/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
