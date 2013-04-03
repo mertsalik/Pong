@@ -20,3 +20,14 @@
 #include <assimp/postprocess.h>
 #include <assimp/vector3.h>
 
+// GLM imports
+
+#include "glm/glm.hpp"
+#include "glm/ext.hpp"
+
+#include <string>
+
+// defines
+
+#define PROJNAME "PONG"
+
