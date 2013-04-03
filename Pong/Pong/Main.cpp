@@ -2,7 +2,7 @@
 #include "GLHelper.h"
 #include "Model.h"
 
-Model *bunny;
+Model *ball;
 
 Model *capsule;
 
@@ -13,7 +13,7 @@ void Draw(void)
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	glLoadIdentity();
 
-	bunny->draw(GLHelper::getInstance().currentCamera);
+	ball->draw(GLHelper::getInstance().currentCamera);
 
 	glutSwapBuffers();
 	GLHelper::getInstance().increaseFrameCount();
@@ -23,7 +23,7 @@ int main(int arg, char*argv[]){
 	try{
 		GLHelper::getInstance().InitGL();
 
-		bunny = new Model("bunny.obj",
+		ball = new Model("Ball.obj",
 			"vert_shader.vert",
 			"frag_shader.frag");
 

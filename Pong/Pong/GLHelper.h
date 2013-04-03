@@ -26,7 +26,7 @@ public:
 	}
 	void createNewCamera(){
 		currentCamera = new Camera();
-		currentCamera->translate(0.f, 0.f, -1.f);
+		currentCamera->translate(0.f, 0.f, -100.0f);
 	}
 
 	static GLHelper& getInstance()

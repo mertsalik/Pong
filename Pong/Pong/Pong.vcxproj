@@ -98,7 +98,7 @@
     <None Include="vert_shader.vert" />
   </ItemGroup>
   <ItemGroup>
-    <Object Include="bunny.obj">
+    <Object Include="Ball.obj">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </Object>
   </ItemGroup>
